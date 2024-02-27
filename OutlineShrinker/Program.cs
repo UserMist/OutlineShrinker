@@ -8,7 +8,6 @@ using Console = Colorful.Console;
 
 namespace OutlineShrinker
 {
-
     class Program
     {
         static Bitmap bm;
@@ -135,7 +134,7 @@ namespace OutlineShrinker
                 switch(s)
                 {
                     case "quit":
-                        Console.WriteLine(" Are you sure you want to do this to me?" +
+                        Console.WriteLine(" Exit?" +
                             "\n\n              [Y/N]", Color.Crimson);
                         Console.Beep(300, 150);
                         retry0:;
